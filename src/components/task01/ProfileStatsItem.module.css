@@ -1,0 +1,12 @@
+.item {
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  margin-right: 10px;
+}
+.label {
+  font-weight: 500;
+}
+.quantity {
+  font-size: 15px;
+}

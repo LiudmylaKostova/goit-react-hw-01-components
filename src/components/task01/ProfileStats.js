@@ -1,10 +1,11 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import ProfileStatsItem from './ProfileStatsItem';
+import styles from './ProfileStats.module.css'
 
 const ProfileStats = ({stats}) => {
   return (
-    <ul>     
+    <ul className = {styles.stats}>     
       {
       Object.keys(stats).map(el =>(
           <ProfileStatsItem key={el} label={el} quantity={stats[el]}/>
